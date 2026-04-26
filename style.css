@@ -1,0 +1,65 @@
+body {
+    background-image: url(./images/cloudy\ background.png);
+    background-size: 100%;
+}
+
+.heading {
+    font-size: 4.5rem;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+}
+
+.Game {
+    display: flex;
+    width: 100%;
+    gap: 25%;
+    justify-content: center;
+}
+img {
+    height: 300px;;
+}
+.Player {
+    color: rgb(15, 180, 0);
+    -webkit-text-stroke: 0.3px rgb(181, 246, 181);
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vh;
+}
+
+.fontdiner-swanky-regular {
+  font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+        margin: 0%;
+
+}
+
+.tie {
+    color: red;
+}
+.p1won {
+    color: blue;
+}
+.p2won {
+    color: gold;
+}
+.headingColor {
+    color: green;
+}
