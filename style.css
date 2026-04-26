@@ -74,7 +74,7 @@ h3 {
 @media (max-width: 1200px) {
     body {
     background-image: url(./images/cloudy\ background.png);
-    width: 100vh;
+    width: 100%;
 }
 
 .heading {
